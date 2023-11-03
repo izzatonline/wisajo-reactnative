@@ -1,43 +1,41 @@
 {
-  "expo": {
-    "name": "DoneWithIt",
-    "slug": "DoneWithIt",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.izzatafifi1994.DoneWithIt"
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "package": "com.izzatafifi1994.DoneWithIt"
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "16df047d-de5b-494c-a8ee-02ac55f0959c"
-      }
-    },
-    "runtimeVersion": {
-      "policy": "appVersion"
-    },
-    "updates": {
-      "url": "https://u.expo.dev/16df047d-de5b-494c-a8ee-02ac55f0959c"
+    "expo": {
+        "name": "DoneWithIt",
+        "slug": "DoneWithIt",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./app/assets/icon.png",
+        "userInterfaceStyle": "light",
+        "splash": {
+            "image": "./app/assets/splash.png",
+            "resizeMode": "contain",
+            "backgroundColor": "#ffffff"
+        },
+        "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "supportsTablet": true,
+            "bundleIdentifier": "com.izzatafifi1994.DoneWithIt"
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./app/assets/adaptive-icon.png",
+                "backgroundColor": "#ffffff"
+            },
+            "package": "com.izzatafifi1994.DoneWithIt"
+        },
+        "web": {
+            "favicon": "./app/assets/favicon.png"
+        },
+        "extra": {
+            "eas": {
+                "projectId": "16df047d-de5b-494c-a8ee-02ac55f0959c"
+            }
+        },
+        "runtimeVersion": {
+            "policy": "appVersion"
+        },
+        "updates": {
+            "url": "https://u.expo.dev/16df047d-de5b-494c-a8ee-02ac55f0959c"
+        }
     }
-  }
 }
